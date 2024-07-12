@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(114, 114, 114);
+font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-up-container {
+    left: 0;
+    width: 50%;
+    z-index: 1;
+}
+
+.sign-in-container {
+    left: 50%;
+    width: 50%;
+    z-index: 2;
+}
+
+form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.sign  {
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background: #ff4b2b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.sign button:active {
+    transform: scale(0.95);
+}
+
+.sign button:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app{
+    width: 90%;
+max-width: 600px;
+background-color: rgb(255, 255, 255);
+margin: 100px auto 0;
+border-radius: 10px;
+padding: 30px;
+}
+.app h1{
+    font-family: "Ga Maamli", sans-serif;
+}
+.app h1{
+font-size: 25px;
+color: #001e4d;
+font-weight: 600;
+border-bottom: 1px solid brown;
+padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    font-weight: 600;
+color: #001e4d;
+}
+.btn{
+    background: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    padding: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]) {
+    background-color: black;
+    color: white;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+
+
+#next-btn {
+background: #001e4d;
+color: white;
+font-weight: 500;
+border: 0;
+width: 150px;
+padding: 10px;
+margin: 20px auto 0;
+border-radius: 4px;
+cursor: pointer;
+/* display: none; */
+}
+
+.correct{
+    background: #9aeabc;
+    border: 2px solid #07d661;
+}
+.incorrect{
+    background: #f8b9b9;
+    border: 2px solid #df2424;
+}
+
+
+
+

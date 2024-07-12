@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <div class="container" id="Container">
+        <div class="form-container sign-up-container">
+            <form id="signUpForm">
+                <h1>Create Account</h1>
+                <input type="text" placeholder="Name" id="signUpName" required>
+                <input type="email" placeholder="Email" id="signUpEmail" required>
+                <input type="password" placeholder="Password" id="signUpPassword" required>
+                <button class="sign" type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form id="signInForm">
+                <h1>Sign in</h1>
+                <input type="email" placeholder="Email" id="signInEmail" required>
+                <input type="password" placeholder="Password" id="signInPassword" required>
+                <button class="sign" type="submit">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<div class="quizContainer">
+
+
+    <div class="app">
+        <h1>General Knowledge Quiz By   `US`</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
